@@ -1,0 +1,10 @@
+Preprocess:
+  v : 5 # voltage
+  bits: 1024
+  sampling_rate: 1024 # Hz
+  window_time: 0.5  # s
+  validate_time: 1.0  # s
+  validate_threshold: 0.3
+  filter_type: "highpass" # lowpass, highpass, bandpass
+  filter_order: 8
+  cutoff_freq: 10
